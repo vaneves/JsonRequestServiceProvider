@@ -1,0 +1,23 @@
+{
+    "name": "vaneves/json-request-service-provider",
+    "description": "Silex provider for request JSON",
+    "keywords": [
+    	"silex",
+        "provider",
+        "json",
+        "request"
+    ],
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Valdirene Neves Junior",   
+            "email": "vaneves@vaneves.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.1"
+    },
+    "autoload": {
+        "psr-4": { "Vaneves\\": "src/Vaneves" }
+    }
+}
