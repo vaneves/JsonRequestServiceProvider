@@ -12,8 +12,8 @@ composer require vaneves/json-request-service-provider
 
 ``` php
 use Silex\Application;
-use Vaneves\JsonRequestServiceProvider;
 use Symfony\Component\HttpFoundation\Request;
+use Vaneves\Provider\JsonRequestServiceProvider;
 
 $app = new Application();
 $app->register(new JsonRequestServiceProvider());
